@@ -9,7 +9,7 @@ const pool = new StaticPool({
 })
 
 
-const newArr = num.map(myFunction)
+num.map(myFunction)
 function myFunction(num) {
     pool.exec({ num: num }).then( result => [
         console.log(`${result.num}th Fibonacci Number: ${result.fib}`)
