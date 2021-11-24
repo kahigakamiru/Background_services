@@ -23,11 +23,7 @@ console.log("Execution in the parent thread complete");
 
 
 
-// nums.map((num) => {
-//     pool.exec({ num: num }).then( result => [
-//         console.log(`${result.num}th Fibonacci Number: ${result.fib}`)
-//     ]);
-// })
+
 
 
 
